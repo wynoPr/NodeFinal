@@ -3,48 +3,327 @@
     {
       "id": 1,
       "name": "HTML",
-      "img":"/",
+      "img":"https://res.cloudinary.com/dct2fwidb/image/upload/v1714153292/html_nwnyk0.png",
       "family": [{
         "name": "Foundation", 
-        "img": "dh"
+        "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153294/foundation_jqza8b.png"
       }],
       "content": [{
         "name": "HTML Basics", 
-        "img": "dh"
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9467"
       },
       {
-        "name": "Forms", 
-        "img": "dh"
-      }],
-      "version": "v 2.4.08",
-      "friendly": ["House Stark", "House Targaryen"]
+        "name": "Sections", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9469"
+      },
+      {
+        "name": "<div> label", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9470"
+      },
+      {
+        "name": "<a> hyperlink", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9474"
+      },
+      {
+        "name": "Pictures", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9475"
+      },
+      {
+        "name": "Lists", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9477"
+      },
+      {
+        "name": "Tables", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9478"
+      },
+      {
+        "name": "Form", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9479"
+      },
+      {
+        "name": "Routes", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9480"
+      }
+    ],
+      "version": "HTML5",
+      "friendly": ["Front", "Dynamics", "Collaborative"]
     }, {
       "id": 2,
       "name": "Javascript",
-      "img":"/",
+      "img":"https://res.cloudinary.com/dct2fwidb/image/upload/v1714153292/js_flmhuv.png",
       "family": [{
-        "name": "Foundation", 
-        "img": "dh"
+        "name": "Dynamics", 
+        "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153294/dynamics_sowrwx.jpg"
       }],
       "content": [{
-        "name": "HTML Basics", 
-        "img": "dh"
+        "name": "Operators", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9523"
       },
       {
-        "name": "Forms", 
-        "img": "dh"
+        "name": "Arrays", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9529"
+      },
+      {
+        "name": "Variables", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9518"
+      },
+      {
+        "name": "Conditionals", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9531"
+      },
+      {
+        "name": "Loops", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9533"
+      },
+      {
+        "name": "Functions", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9535"
+      },
+      {
+        "name": "DOM", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9547"
+      },
+      {
+        "name": "Promises", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9556"
+      },
+      {
+        "name": "Petitions", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9562"
+      }
+      ],
+      "version": "v ECMAScript 2021",
+      "friendly": ["Foundation", "Front", "Collaborative"]
+    }, {
+      "id": 3,
+      "name": "Cascading Style Sheets",
+      "img":"https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/css_xr9sow.png",
+      "family": [{
+        "name": "Front", 
+        "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153294/front_ahzqfe.jpg"
       }],
-      "version": "v 2.4.08",
-      "friendly": ["House Stark", "House Targaryen"]
+      "content": [{
+        "name": "Selectors", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9483"
+      },
+      {
+        "name": "Specificity", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9490"
+      },
+      {
+        "name": "Flexbox", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9502"
+      },
+      {
+        "name": "Pseudoclasses", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9492"
+      },
+      {
+        "name": "Responsive", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9495"
+      },
+      {
+        "name": "Animations", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9500"
+      },
+      {
+        "name": "Grids", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9503"
+      },
+      {
+        "name": "Bootstrap", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9505"
+      },
+      {
+        "name": "SCSS/SAS", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9504"
+      }
+      ],
+      "version": "CSS3",
+      "friendly": ["Foundation", "Front", "Collaborative"]
+    }, {
+      "id": 4,
+      "name": "React",
+      "img":"https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/react_hlnf6w.png",
+      "family": [{
+        "name": "Front", 
+        "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153294/front_ahzqfe.jpg"
+      }],
+      "content": [{
+        "name": "Intro", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9645"
+      },
+      {
+        "name": "Components", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9648"
+      },
+      {
+        "name": "Props", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9649"
+      },
+      {
+        "name": "Events & states", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9650"
+      },
+      {
+        "name": "Hooks", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9653"
+      },
+      {
+        "name": "Axios", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9656"
+      },
+      {
+        "name": "Redux", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9659"
+      }
+      ],
+      "version": "v 18.2.0",
+      "friendly": ["Foundation", "Front", "Collaborative"]
+    }, {
+      "id": 5,
+      "name": "Angular",
+      "img":"https://res.cloudinary.com/dct2fwidb/image/upload/v1714153292/angular_nccoxm.png",
+      "family": [{
+        "name": "Front", 
+        "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153294/front_ahzqfe.jpg"
+      }],
+      "content": [{
+        "name": "Installations", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9620"
+      },
+      {
+        "name": "Components", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9622"
+      },
+      {
+        "name": "TS", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9623"
+      },
+      {
+        "name": "Events", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9625"
+      },
+      {
+        "name": "Directives", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9626"
+      },
+      {
+        "name": "Input/Output", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9627"
+      },
+      {
+        "name": "Routes", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9633"
+      },
+      {
+        "name": "Interceptors", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9638"
+      }
+      ],
+      "version": "v 1.7.6",
+      "friendly": ["Foundation", "Front", "Collaborative"]
+    },{
+      "id": 6,
+      "name": "Node",
+      "img":"https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/node_rtiwcx.png",
+      "family": [{
+        "name": "Database", 
+        "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/bbdd_pssmih.jpg"
+      }],
+      "content": [{
+        "name": "Env", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9579"
+      },
+      {
+        "name": "Mongo/Mongoose", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9588"
+      },
+      {
+        "name": "Modelling& abstraction", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9596"
+      }
+      ,
+      {
+        "name": "Express", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9584"
+      },
+      {
+        "name": "Autenticators", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9602"
+      },
+      {
+        "name": "Json", 
+        "url": "https://upgradehub.instructure.com/courses/351/modules/items/9608"
+      }
+      ],
+      "version": "v 20.7.0",
+      "friendly": ["Foundation", "Front", "Collaborative"]
+    }, {
+      "id": 7,
+      "name": "Postman",
+      "img":"https://res.cloudinary.com/dct2fwidb/image/upload/v1714153292/postman_fb93to.png",
+      "family": [{
+        "name": "Database", 
+        "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/bbdd_pssmih.jpg"
+      }],
+      "version": "v 10.24",
+      "friendly": ["Database"]
+    }, {
+      "id": 8,
+      "name": "Github",
+      "img":"https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/github_az7ptx.png",
+      "family": [{
+        "name": "Collaborative", 
+        "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/collaborative_pn3mlf.png"
+      }]
+      ,
+      "version": "v 3.12.2",
+      "friendly": ["Foundation", "Front", "Collaborative"]
+    },{
+      "id": 9,
+      "name": "Vercel",
+      "img":"https://res.cloudinary.com/dct2fwidb/image/upload/v1714153292/vercel_baqvjr.svg",
+      "family": [{
+        "name": "Collaborative", 
+        "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/collaborative_pn3mlf.png"
+      }]
+      ,
+      "version": "v 20.11.1",
+      "friendly": ["Foundation"]
     }
   ],
   "families": [
     {
       "id": 1,
       "name": "Foundation",
-      "img":"/",
-      "languages": ["House Stark", "House Targaryen"],
-      "description": ""
+      "img":"https://res.cloudinary.com/dct2fwidb/image/upload/v1714153294/foundation_jqza8b.png",
+      "languages": ["HTML"],
+      "description": "HTML defines the structure of a web page, organizing its content into a hierarchical format that browsers can interpret and render visually for users."
+    },{
+      "id": 2,
+      "name": "Dynamics",
+      "img":"https://res.cloudinary.com/dct2fwidb/image/upload/v1714153294/dynamics_sowrwx.jpg",
+      "languages": ["Javascript"],
+      "description": "JavaScript is a programming language used for web development, adding interactivity and dynamic behavior to websites. "
+    },{
+      "id": 3,
+      "name": "Front",
+      "img":"https://res.cloudinary.com/dct2fwidb/image/upload/v1714153294/front_ahzqfe.jpg",
+      "languages": ["CSS", "React", "Angular"],
+      "description": "This technologies bring their own set of features and best practices to front-end development, catering to different project requirements and developer preferences."
+    },{
+      "id": 4,
+      "name": "Database",
+      "img":"https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/bbdd_pssmih.jpg",
+      "languages": ["Node", "Postman"],
+      "description": "Databases serve as a central repository for organizing and managing large volumes of data, making it easier to store, access, and manipulate information."
+    },{
+      "id": 4,
+      "name": "Collaborative",
+      "img":"https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/collaborative_pn3mlf.png",
+      "languages": ["Github", "Vercel"],
+      "description": "GitHub and Vercel work together to streamline the development, deployment, and collaboration processes, enabling teams to build and maintain high-quality web applications efficiently. "
     }
   ]
 }
