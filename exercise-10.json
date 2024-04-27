@@ -1,7 +1,7 @@
 {
   "language": [
     {
-      "id": 1,
+      "id": "html",
       "name": "HTML",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153292/html_nwnyk0.png",
       "family": [
@@ -52,7 +52,7 @@
       "friendly": ["Front", "Dynamics", "Collaborative"]
     },
     {
-      "id": 2,
+      "id": "javascript",
       "name": "Javascript",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153292/js_flmhuv.png",
       "family": [
@@ -103,7 +103,7 @@
       "friendly": ["Foundation", "Front", "Collaborative"]
     },
     {
-      "id": 3,
+      "id": "css",
       "name": "Cascading Style Sheets",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/css_xr9sow.png",
       "family": [
@@ -154,7 +154,7 @@
       "friendly": ["Foundation", "Front", "Collaborative"]
     },
     {
-      "id": 4,
+      "id": "react",
       "name": "React",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/react_hlnf6w.png",
       "family": [
@@ -197,7 +197,7 @@
       "friendly": ["Foundation", "Front", "Collaborative"]
     },
     {
-      "id": 5,
+      "id": "angular",
       "name": "Angular",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153292/angular_nccoxm.png",
       "family": [
@@ -244,7 +244,7 @@
       "friendly": ["Foundation", "Front", "Collaborative"]
     },
     {
-      "id": 6,
+      "id": "node",
       "name": "Node",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/node_rtiwcx.png",
       "family": [
@@ -283,7 +283,7 @@
       "friendly": ["Foundation", "Front", "Collaborative"]
     },
     {
-      "id": 7,
+      "id": "postman",
       "name": "Postman",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153292/postman_fb93to.png",
       "family": [
@@ -296,7 +296,7 @@
       "friendly": ["Database"]
     },
     {
-      "id": 8,
+      "id": "github",
       "name": "Github",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/github_az7ptx.png",
       "family": [
@@ -309,7 +309,7 @@
       "friendly": ["Foundation", "Front", "Collaborative"]
     },
     {
-      "id": 9,
+      "id": "vercel",
       "name": "Vercel",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153292/vercel_baqvjr.svg",
       "family": [
@@ -324,35 +324,35 @@
   ],
   "families": [
     {
-      "id": 1,
+      "id": "foundation",
       "name": "Foundation",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153294/foundation_jqza8b.png",
       "languages": ["HTML"],
       "description": "HTML defines the structure of a web page, organizing its content into a hierarchical format that browsers can interpret and render visually for users."
     },
     {
-      "id": 2,
+      "id": "dynamics",
       "name": "Dynamics",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153294/dynamics_sowrwx.jpg",
       "languages": ["Javascript"],
       "description": "JavaScript is a programming language used for web development, adding interactivity and dynamic behavior to websites. "
     },
     {
-      "id": 3,
+      "id": "front",
       "name": "Front",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153294/front_ahzqfe.jpg",
       "languages": ["CSS", "React", "Angular"],
       "description": "This technologies bring their own set of features and best practices to front-end development, catering to different project requirements and developer preferences."
     },
     {
-      "id": 4,
+      "id": "database",
       "name": "Database",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/bbdd_pssmih.jpg",
       "languages": ["Node", "Postman"],
       "description": "Databases serve as a central repository for organizing and managing large volumes of data, making it easier to store, access, and manipulate information."
     },
     {
-      "id": 4,
+      "id": "collaborative",
       "name": "Collaborative",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/collaborative_pn3mlf.png",
       "languages": ["Github", "Vercel"],
