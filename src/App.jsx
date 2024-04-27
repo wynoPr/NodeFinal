@@ -1,17 +1,12 @@
-import './App.scss'
-import StylesTemplate from './components/StylesTemplate'
-import Footer from './components/footer/Footer'
-import Header from './components/header/Header'
+import P1 from "./pages/P1/P1";
 
 function App() {
-
   return (
     <>
-      <StylesTemplate/>
-      <Header/>
-      <Footer/>
+      <P1 />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
+console.log("blu");
