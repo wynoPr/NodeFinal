@@ -1,15 +1,20 @@
 import React from 'react'
 import './footer.scss'
-import { NavLink } from 'react-router-dom'
+import '../../../src/App.scss'
+import { Link, NavLink } from 'react-router-dom'
+import Links from './Links'
 
 export default function Footer() {
+
+    const path = window.location.pathname;
+
   return (
     <>
-        <footer className='footer container bg-black'>
-            {/* <NavLink to='/languages' className='footer_link'>Languajes</NavLink>
-            <NavLink to='/families' className='footer_link'>Families</NavLink>
-            <NavLink to='/chronogram' className='footer_link'>Chronogram</NavLink> */}
+        <footer className='footer'>
+            {path === "/" ? <Links color='f-w'></Links> : <Links></Links>}
         </footer>
     </>
   )
 }
+
+
