@@ -1,5 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import Footer from "../../components/footer/Footer";
+import Header from "../../components/header/Header";
 
 export default function P1() {
   const [languages, setLanguages] = useState([]);
@@ -13,5 +15,11 @@ export default function P1() {
     getLanguages();
   }, []);
   console.log(languages);
-  return <div>blú</div>;
+  return (
+    <>
+      <Header/>
+      <div>blú</div>
+      <Footer />
+    </>
+);
 }

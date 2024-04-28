@@ -51,6 +51,9 @@
   width: 100vw;
   height: 100vh;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .h1 {
   font-family: "OpenDyslexic";
@@ -82,9 +85,31 @@
   font-size: small;
   color: #2d2a26;
 }
+
+.link{
+  color: #2d2a26;
+  transition: transform 0.3s
+}
+.f-w {
+  color: #F8F8F8;
+}
+.link:hover{
+  color: #4682b4;
+  transform: scale(1.1);
+}
+.active {
+  color: #87ceeb;
+}
+.icon{
+  height: 36px;
+  font-size: 36px;
+}
+
+
 .container {
   max-width: 1280px;
 }
+
 .bg-black {
   background-color: #2d2a26;
 }
