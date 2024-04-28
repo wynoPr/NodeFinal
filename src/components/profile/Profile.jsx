@@ -5,11 +5,6 @@ import "./Profile.scss";
 import { Link } from "react-router-dom";
 
 export default function Profile({ languages }) {
-  const handleLanguageClick = (language) => {
-    // Aquí puedes ejecutar la lógica deseada al hacer clic en el idioma
-    console.log(`Clicked language: ${language.name}`);
-  };
-
   return (
     <div className="c-profile-container">
       <div key={languages.index} className="c-language-container">

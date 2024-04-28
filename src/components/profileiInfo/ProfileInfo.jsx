@@ -1,17 +1,3 @@
-// export default function ProfileInfo({ data }) {
-//   return (
-//     <div>
-//       <div>
-//         {data.map((content, index) => (
-//           <div key={index}>
-//             <a href={content.url}>{content.name}</a>
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// }
-
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
@@ -24,9 +10,7 @@ export default function ProfileInfo() {
   useEffect(() => {
     const getLanguage = async () => {
       try {
-        const { data } = await axios.get(
-          `http://localhost:3001/language/${id}`
-        );
+        const { data } = await axios.get(`http://localhost:3001/language/`);
         setLanguages(data);
       } catch (error) {
         console.error("Error fetching language data:", error);
@@ -42,15 +26,15 @@ export default function ProfileInfo() {
           <Link to={`/language/${language.id}`}>
             <img src={language.img} alt={language.name} />
             <h2>{language.name}</h2>
+            <div>
+              {language.content &&
+                language.content.map((contentItem, contentIndex) => (
+                  <div key={contentIndex}>
+                    <a href={contentItem.img}>{contentItem.name}</a>
+                  </div>
+                ))}
+            </div>
           </Link>
-          <div>
-            {language.content &&
-              language.content.map((contentItem, contentIndex) => (
-                <div key={contentIndex}>
-                  <a href={contentItem.img}>{contentItem.name}</a>
-                </div>
-              ))}
-          </div>
         </div>
       ))}
     </div>

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import data from "../../../exercise-10.json";
 import "../../../src/App.scss";
 import axios from "axios";
+import { useParams } from "react-router-dom";
 
 export default function P2({ data }) {
   const { id } = useParams();
