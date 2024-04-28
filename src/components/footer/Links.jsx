@@ -8,7 +8,7 @@ export default function Links({color}) {
     <>
         <NavLink to='/languages' className={`link h1 ${color}`}>Languages</NavLink>
         <NavLink to='/families' className={`link h1 ${color}`}>Families</NavLink>
-        <NavLink to='/chronogram' className={`link h1 ${color}`}>Chronogram</NavLink>
+        <NavLink to='/timeline' className={`link h1 ${color}`}>TimeLine</NavLink>
     </>
   )
 }

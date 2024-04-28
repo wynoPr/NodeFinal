@@ -8,7 +8,7 @@ export default function Front() {
   return (
     <>
         <Header/>
-        <div className='container'>
+        <div className='back_img'>
             <h1 className='heading f-w'>Introducción a la programación</h1>
         </div>
         <Footer/>
