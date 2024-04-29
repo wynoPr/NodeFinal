@@ -21,7 +21,13 @@ export default function P2({ data }) {
     <div>
       <img src={language.img} alt={language.name} />
       <h2>{language.name}</h2>
-      <p>{language.content}</p>
+      <div>
+        {language?.content?.map((contenItem, contenIndex) => (
+          <div key={contenIndex}>
+            <a href={contenItem.url}>{contenItem.name}</a>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

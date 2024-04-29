@@ -18,7 +18,7 @@ export default function ProfileInfo() {
     };
     getLanguage();
   }, [id]);
-
+  console.log(languages);
   return (
     <div>
       {languages.map((language, index) => (
