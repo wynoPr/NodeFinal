@@ -1,21 +1,21 @@
-import React from "react";
-import "../../../src/App.scss";
+import { useParams } from "react-router-dom";
+import ProfileInfo from "../profileiInfo/ProfileInfo";
+import data from "../../../exercise-10.json";
 
-import "./Profile.scss";
-import { Link } from "react-router-dom";
+export default function Profile() {
+  const { id } = useParams();
+  const selectedLanguage = data.language.find(
+    (lang) => lang.id === parseInt(id)
+  );
 
-export default function Profile({ languages }) {
   return (
-    <div className="c-profile-container">
-      <div key={languages.index} className="c-language-container">
-        {languages.map((language, index) => (
-          <Link to={"/languages/" + language.id}>
-            <div key={index} className="u-language">
-              <img src={language.img} alt={language.name} />
-              <h2 className="h2">{language.name}</h2>
-            </div>
-          </Link>
-        ))}
+    <div>
+      <div>
+        <img src={selectedLanguage.img} alt={selectedLanguage.name} />
+        <h1>{selectedLanguage.name}</h1>
+      </div>
+      <div>
+        <ProfileInfo data={selectedLanguage.content} />
       </div>
     </div>
   );
