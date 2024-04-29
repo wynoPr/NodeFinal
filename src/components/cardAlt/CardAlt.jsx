@@ -8,7 +8,7 @@ export default function CardAlt({arr}) {
     const clase = esPar ? 'right' : 'left';
     const classComb = `cardAlt ${clase}`
   return (
-    <Link to={"/language/" + arr.id} className={classComb}>
+    <Link to={"/languages/" + arr.id} className={classComb}>
         <h4 className='h4'>{arr.order}</h4>
         <h4 className='h4'>{arr.name}</h4>
         <figure className='cardAlt_figure'><img src={arr.img} alt={'logo de ' + arr.name} className='cardAlt_img'></img></figure>

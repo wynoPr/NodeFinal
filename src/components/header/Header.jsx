@@ -15,7 +15,7 @@ const gobacks = () => {
   return (
     <>
       <header className='header'>
-        {path === "/languages" || path === "/families"  && <Finder/>}
+        { (path === "/languages" || path === "/families") && <Finder/> }
         {path.includes("/profile") && <Link to="" onClick={gobacks} className="link icon h3 goback"> &#60; Go Back</Link>}
         <div className='header_language'>
           <a><img className="header_language_icons link icon" src='src\img\spain.png' alt='cambiar idioma a español '></img></a>
