@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url("./fonts/opendyslexic/OpenDyslexic-Bold.otf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url("./fonts/opendyslexic/OpenDyslexic-Italic.otf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Cocogoose";
+  src: url("./fonts/cococlassic/Cocogoose-Classic-Medium.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cocogoose";
+  src: url("./fonts/cococlassic/Cocogoose-Classic-Medium-Italic.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Cocogoose";
+  src: url("./fonts/cococlassic/Cocogoose-Classic-Light.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cocogoose";
+  src: url("./fonts/cococlassic/Cocogoose-Classic-Light-Italic.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.h1 {
+  font-family: "OpenDyslexic";
+  font-weight: 700;
+  font-size: xx-large;
+  color: #2d2a26;
+}
+.h2 {
+  font-family: "OpenDyslexic";
+  font-weight: 700;
+  font-size: x-large;
+  color: #2d2a26;
+}
+.h3 {
+  font-family: "OpenDyslexic";
+  font-weight: 700;
+  font-size: larger;
+  color: #2d2a26;
+}
+.p-b {
+  font-family: "Cocogoose";
+  font-weight: 400;
+  font-size: medium;
+  color: #2d2a26;
+}
+.p-s {
+  font-family: "Cocogoose";
+  font-weight: 200;
+  font-size: small;
+  color: #2d2a26;
+}
+.container {
+  max-width: 1280px;
+}
+.bg-black {
+  background-color: #2d2a26;
+}
