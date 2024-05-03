@@ -10,17 +10,16 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Front/>} />
-          <Route path="/languages" element={<P1/>} />
-          <Route path="/languages/:id" element={<P2/>}/>
-          {/* <Route path="/families" element={<P1/>} />
-          <Route path="/families/:id" element={<P2/>} /> */}
-          <Route path="/timeline" element={<P3/>} />
+          <Route path="/" element={<Front />} />
+          <Route path="/languages" element={<P1 dataType="language" />} />
+          <Route path="/languages/:id" element={<P2 dataType="languages" />} />
+          <Route path="/families" element={<P1 dataType="family" />} />
+          <Route path="/families/:id" element={<P2 dataType="families" />} />
+          <Route path="/timeline" element={<P3 />} />
         </Routes>
-      </BrowserRouter>  
+      </BrowserRouter>
     </>
   );
 }
 
 export default App;
-

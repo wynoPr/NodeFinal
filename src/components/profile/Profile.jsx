@@ -6,7 +6,8 @@ import { Link } from "react-router-dom";
 
 export default function Profile({ languages }) {
   return (
-    <div className="c-profile-container">
+    <div>
+      <p>blu profile</p>
       <div key={languages.index} className="c-language-container">
         {languages.map((language, index) => (
           <Link to={"/languages/" + language.id}>
