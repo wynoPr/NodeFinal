@@ -2,41 +2,43 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
-export default function ProfileInfo() {
-  const { id } = useParams();
+export default function ProfileInfo({ data }) {
+  const { dataType } = useParams();
 
-  const [languages, setLanguages] = useState([]);
+  const [familyData, setFamilyData] = useState([]);
+  const [contentData, setContentData] = useState([]);
 
   useEffect(() => {
-    const getLanguage = async () => {
-      try {
-        const { data } = await axios.get(`http://localhost:3001/language/`);
-        setLanguages(data);
-      } catch (error) {
-        console.error("Error fetching language data:", error);
-      }
-    };
-    getLanguage();
-  }, [id]);
-  console.log(languages);
+    if (dataType === "language") {
+      setFamilyData(data?.family || []);
+    } else {
+      setContentData(data?.content || []);
+    }
+  }, [data, dataType]);
+
   return (
-    <div>
-      {languages.map((language, index) => (
-        <div key={index}>
-          <Link to={`/language/${language.id}`}>
-            <img src={language.img} alt={language.name} />
-            <h2>{language.name}</h2>
-            <div>
-              {language.content &&
-                language.content.map((contentItem, contentIndex) => (
-                  <div key={contentIndex}>
-                    <a href={contentItem.img}>{contentItem.name}</a>
-                  </div>
-                ))}
-            </div>
-          </Link>
-        </div>
-      ))}
+    <div className="f-w container">
+      <div>
+        <img src={data.img} alt={data.name} />
+        {dataType === "language" ? (
+          <div>
+            {familyData.map((familyItem) => (
+              <div key={familyItem.id}>
+                <p>{familyItem.name}</p>
+                <img src={familyItem.img} alt={familyItem.name} />
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div>
+            {contentData.map((contentItem) => (
+              <div key={contentItem.id}>
+                <a href={contentItem.url}>{contentItem.name}</a>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
     </div>
   );
 }

@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Footer from "./components/footer/Footer";
 import P1 from "./pages/P1/P1";
 import P2 from "./pages/P2/P2";
 import P3 from "./pages/P3/P3";
