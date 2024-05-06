@@ -6,11 +6,13 @@ import Profile from "../../components/profile/Profile";
 
 export default function P1({ dataType }) {
   const [data, setData] = useState([]);
+  const baseUrl = "http://localhost:3001/";
+  const directionUrl = baseUrl + dataType;
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const { data } = await axios(`http://localhost:3001/${dataType}`);
+        const { data } = await axios(directionUrl);
         setData(data);
       } catch (error) {
         console.error(`Error fetching ${dataType} data:`, error);
@@ -22,7 +24,7 @@ export default function P1({ dataType }) {
   return (
     <>
       <Header />
-      <Profile data={data} />
+      <Profile dataType={dataType} data={data} />
       <Footer />
     </>
   );

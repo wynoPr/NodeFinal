@@ -8,7 +8,7 @@ import ProfileInfo from "../../components/profileiInfo/ProfileInfo";
 export default function P2({ dataType }) {
   const { id } = useParams();
 
-  const [data, setData] = useState({});
+  const [data, setData] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -21,11 +21,11 @@ export default function P2({ dataType }) {
     };
     fetchData();
   }, [id, dataType]);
-
   return (
     <>
       <Header />
-      <ProfileInfo data={data} />
+      <ProfileInfo dataType={dataType} />
+
       <Footer />
     </>
   );
