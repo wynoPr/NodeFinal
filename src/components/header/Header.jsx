@@ -21,6 +21,7 @@ const gobacks = () => {
           <a><img className="header_language_icons link icon" src='src\img\spain.png' alt='cambiar idioma a español '></img></a>
           <a><img className="header_language_icons link icon" src='src\img\united-kingdom.png' alt='change language to english'></img></a>
           {path !== "/" && <Link to='/'><span className="material-symbols-rounded header_language_icons link icon">home</span></Link>}
+          <button className='faves_button' id='faves_button'><span className="material-symbols-rounded header_language_icons link icon">star</span></button>
         </div>
       </header>
     </>

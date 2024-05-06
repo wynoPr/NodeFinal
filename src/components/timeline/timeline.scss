@@ -2,11 +2,6 @@
 
 .timeline{
     position: relative;
-    height: 70%;
-    width: 100%;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-    margin: 7% 0;
     &_head{
         padding: 0;
         display: flex;
@@ -23,13 +18,5 @@
             justify-content: center;
         }
 
-    }
-    &_scroll-window{
-        position: absolute;
-        top: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
     }
 }

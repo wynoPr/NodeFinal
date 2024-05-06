@@ -11,7 +11,7 @@ export default function Profile({ languages }) {
         {languages.map((language, index) => (
           <Link to={"/languages/" + language.id}>
             <div key={index} className="u-language">
-              <img src={language.img} alt={language.name} />
+              <img className="u-language_img" src={language.img} alt={language.name} />
               <h2 className="h2">{language.name}</h2>
             </div>
           </Link>

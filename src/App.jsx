@@ -6,8 +6,10 @@ import P3 from "./pages/P3/P3";
 import Front from "./pages/front/Front";
 
 function App() {
+  
   return (
     <>
+      
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Front/>} />

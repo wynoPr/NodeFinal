@@ -8,9 +8,14 @@ export default function Front() {
   return (
     <>
         <Header/>
-        <div className='back_img'>
-            <h1 className='heading f-w'>Introducción a la programación</h1>
-        </div>
+        <section className='front-main'>
+          <img className='heading' src='src\img\logo_b.png' alt='logo Developer Cheat Sheet'></img>
+          <video className='front-vid container' autoPlay muted loop>
+            <source src='src/img/final-react_front_video.mp4' type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div className='back_color-stripe'></div>
+        </section>
         <Footer/>
     </>
   )
