@@ -4,6 +4,7 @@
 .header{
     height: 12%;
     width: 100%;
+    z-index: 5;
     padding: 10px 0;
     position: absolute;
     top: 0;
@@ -26,4 +27,7 @@
 .goback{
     position: absolute;
     left: 10%;
+  }
+  .faves_button{
+    background: #ffffff00;
   }

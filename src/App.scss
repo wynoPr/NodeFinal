@@ -132,18 +132,19 @@
 
 
 
-::-webkit-scrollbar{
-  width: 5px;
-}
-// ::-webkit-scrollbar-button the buttons on the scrollbar (arrows pointing upwards and downwards).
-::-webkit-scrollbar-thumb {
-  background: #778899;
-  border-radius: 5px;
-}
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px #E3EEF8;
-  border-radius: 5px;
-}
-// ::-webkit-scrollbar-track-piece the track (progress bar) NOT covered by the handle.
-// ::-webkit-scrollbar-corner the bottom corner of the scrollbar, where both horizontal and vertical scrollbars meet.
-// ::-webkit-resizer
+// ::-webkit-scrollbar{
+//   width: 5px;
+// }
+// // ::-webkit-scrollbar-button the buttons on the scrollbar (arrows pointing upwards and downwards).
+// ::-webkit-scrollbar-thumb {
+//   background: #778899;
+//   border-radius: 5px;
+// }
+// ::-webkit-scrollbar-track {
+//   box-shadow: inset 0 0 5px #E3EEF8;
+//   border-radius: 5px;
+// }
+// // ::-webkit-scrollbar-track-piece the track (progress bar) NOT covered by the handle.
+// // ::-webkit-scrollbar-corner the bottom corner of the scrollbar, where both horizontal and vertical scrollbars meet.
+// // ::-webkit-resizer
+

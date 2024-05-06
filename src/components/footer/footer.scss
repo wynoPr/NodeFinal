@@ -10,5 +10,6 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
-    background: linear-gradient(180deg, rgba(70,130,180,0) 00%, rgba(119,136,153,0.3) 70%, rgba(119,136,153,0.5) 100%);
+    background: linear-gradient(180deg, rgba(70,130,180,0) 00%, rgba(119,136,153,0.3) 40%, rgba(119,136,153,0.7) 100%);
+    z-index: 5;
 }
