@@ -4,20 +4,29 @@ import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
 import Profile from "../../components/profile/Profile";
 
-export default function P1() {
-  const [languages, setLanguages] = useState([]);
+export default function P1({ dataType }) {
+  const [data, setData] = useState([]);
+  const baseUrl = "http://localhost:3001/";
+  const directionUrl = baseUrl + dataType;
+
   useEffect(() => {
-    const getLanguages = async () => {
-      const { data } = await axios("http://localhost:3001/language");
-      setLanguages(data);
+    const fetchData = async () => {
+      try {
+        const { data } = await axios(directionUrl);
+        // console.log(data);
+        setData(data);
+      } catch (error) {
+        console.error(`Error fetching ${dataType} data:`, error);
+      }
     };
-    getLanguages();
-  }, []);
+    fetchData();
+  }, [dataType]);
+
   return (
     <>
-      <Header/>
-        <Profile languages={languages} />
+      <Header />
+      <Profile dataType={dataType} data={data} />
       <Footer />
     </>
-);
+  );
 }

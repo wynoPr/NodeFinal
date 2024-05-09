@@ -1,3 +1,4 @@
+
 import React from 'react'
 import './p3.scss'
 import Header from '../../components/header/Header';
@@ -6,8 +7,8 @@ import Timeline from '../../components/timeline/Timeline';
 import SimpleBar from 'simplebar-react';
 import 'simplebar-react/dist/simplebar.min.css';
 
-export default function P3() {
 
+export default function P3() {
   return (
     <>
         <Header/>
@@ -17,5 +18,5 @@ export default function P3() {
         </SimpleBar>
         <Footer />
     </>
-  )
+  );
 }

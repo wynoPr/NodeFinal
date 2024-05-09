@@ -1,8 +1,8 @@
-import React from 'react'
-import '../../../src/App.scss'
-import './front.scss'
-import Footer from '../../components/footer/Footer'
-import Header from '../../components/header/Header'
+import React from "react";
+import "../../../src/App.scss";
+import "./front.scss";
+import Footer from "../../components/footer/Footer";
+import Header from "../../components/header/Header";
 
 export default function Front() {
   return (
@@ -18,5 +18,5 @@ export default function Front() {
         </section>
         <Footer/>
     </>
-  )
+  );
 }
