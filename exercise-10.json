@@ -5,12 +5,10 @@
       "name": "HTML",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153292/html_nwnyk0.png",
       "order": 1,
-      "family": [
-        {
-          "name": "Foundation",
-          "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153294/foundation_jqza8b.png"
-        }
-      ],
+      "family": {
+        "name": "Foundation",
+        "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153294/foundation_jqza8b.png"
+      },
       "content": [
         {
           "name": "HTML Basics",
@@ -57,12 +55,10 @@
       "name": "JS",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153292/js_flmhuv.png",
       "order": 3,
-      "family": [
-        {
-          "name": "Dynamics",
-          "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153294/dynamics_sowrwx.jpg"
-        }
-      ],
+      "family": {
+        "name": "Dynamics",
+        "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153294/dynamics_sowrwx.jpg"
+      },
       "content": [
         {
           "name": "Operators",
@@ -109,12 +105,10 @@
       "name": "CSS",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/css_xr9sow.png",
       "order": 2,
-      "family": [
-        {
-          "name": "Front",
-          "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153294/front_ahzqfe.jpg"
-        }
-      ],
+      "family": {
+        "name": "Front",
+        "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153294/front_ahzqfe.jpg"
+      },
       "content": [
         {
           "name": "Selectors",
@@ -161,12 +155,10 @@
       "name": "React",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/react_hlnf6w.png",
       "order": 5,
-      "family": [
-        {
-          "name": "Front",
-          "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153294/front_ahzqfe.jpg"
-        }
-      ],
+      "family": {
+        "name": "Front",
+        "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153294/front_ahzqfe.jpg"
+      },
       "content": [
         {
           "name": "Intro",
@@ -205,12 +197,10 @@
       "name": "Angular",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153292/angular_nccoxm.png",
       "order": 4,
-      "family": [
-        {
-          "name": "Front",
-          "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153294/front_ahzqfe.jpg"
-        }
-      ],
+      "family": {
+        "name": "Front",
+        "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153294/front_ahzqfe.jpg"
+      },
       "content": [
         {
           "name": "Installations",
@@ -253,12 +243,10 @@
       "name": "Node",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/node_rtiwcx.png",
       "order": 6,
-      "family": [
-        {
-          "name": "Database",
-          "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/bbdd_pssmih.jpg"
-        }
-      ],
+      "family": {
+        "name": "Database",
+        "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/bbdd_pssmih.jpg"
+      },
       "content": [
         {
           "name": "Env",
@@ -293,12 +281,10 @@
       "name": "Postman",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153292/postman_fb93to.png",
       "order": 7,
-      "family": [
-        {
-          "name": "Database",
-          "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/bbdd_pssmih.jpg"
-        }
-      ],
+      "family": {
+        "name": "Database",
+        "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/bbdd_pssmih.jpg"
+      },
       "version": "v 10.24",
       "friendly": ["Database"]
     },
@@ -333,38 +319,38 @@
   ],
   "families": [
     {
-      "id": 1,
+      "id": "foundation",
       "name": "Foundation",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153294/foundation_jqza8b.png",
-      "languages": ["HTML"],
+      "content": ["HTML"],
       "description": "HTML defines the structure of a web page, organizing its content into a hierarchical format that browsers can interpret and render visually for users."
     },
     {
-      "id": 2,
+      "id": "dynamics",
       "name": "Dynamics",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153294/dynamics_sowrwx.jpg",
-      "languages": ["Javascript"],
+      "content": ["Javascript"],
       "description": "JavaScript is a programming language used for web development, adding interactivity and dynamic behavior to websites. "
     },
     {
-      "id": 3,
+      "id": "front",
       "name": "Front",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153294/front_ahzqfe.jpg",
-      "languages": ["CSS", "React", "Angular"],
+      "content": ["CSS", "React", "Angular"],
       "description": "This technologies bring their own set of features and best practices to front-end development, catering to different project requirements and developer preferences."
     },
     {
-      "id": 4,
+      "id": "database",
       "name": "Database",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/bbdd_pssmih.jpg",
-      "languages": ["Node", "Postman"],
+      "content": ["Node", "Postman"],
       "description": "Databases serve as a central repository for organizing and managing large volumes of data, making it easier to store, access, and manipulate information."
     },
     {
-      "id": 4,
+      "id": "collaborative",
       "name": "Collaborative",
       "img": "https://res.cloudinary.com/dct2fwidb/image/upload/v1714153293/collaborative_pn3mlf.png",
-      "languages": ["Github", "Vercel"],
+      "content": ["Github", "Vercel"],
       "description": "GitHub and Vercel work together to streamline the development, deployment, and collaboration processes, enabling teams to build and maintain high-quality web applications efficiently. "
     }
   ]

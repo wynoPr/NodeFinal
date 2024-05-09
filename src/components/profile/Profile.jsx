@@ -13,7 +13,7 @@ export default function Profile({ dataType, data }) {
     <div>
       <div className="c-language-container">
         {data.map((language, index) => (
-          <Link key={index} to={`${language.name}`}>
+          <Link key={index} to={`${language.id}`}>
             <div className="u-language">
               <img src={language.img} alt={language.name} />
               <h2 className="h2">{language.name}</h2>

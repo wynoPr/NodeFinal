@@ -13,6 +13,7 @@ export default function P1({ dataType }) {
     const fetchData = async () => {
       try {
         const { data } = await axios(directionUrl);
+        // console.log(data);
         setData(data);
       } catch (error) {
         console.error(`Error fetching ${dataType} data:`, error);
