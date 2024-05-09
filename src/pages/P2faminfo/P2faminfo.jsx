@@ -20,20 +20,26 @@ export default function P2faminfo({ dataType }) {
     };
     fetchData();
   }, []);
+
+  const dCont = data.content;
+  console.log(dCont);
+
   return (
     <>
       <Header />
       <div className="f-w container">
         <div>
           <img src={data.img} alt={data.name} />
-          <div>
-            {data.content.map((famItem, id) => (
-              <div key={id}>
-                <p>{famItem.name}</p>
-                <img src={famItem.img} alt={famItem.name} />
-              </div>
-            ))}
-          </div>
+          {dCont && (
+            <div>
+              {dCont.map((contItem, id) => (
+                <div key={id}>
+                  <p>{contItem.name}</p>
+                  <img src={contItem.img} alt={contItem.name} />
+                </div>
+              ))}
+            </div>
+          )}
           <div>{data.description}</div>
         </div>
       </div>

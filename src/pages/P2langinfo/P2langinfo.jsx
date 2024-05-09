@@ -10,7 +10,6 @@ export default function P2langinfo({ dataType }) {
   const url = "http://localhost:3001/language/" + id;
 
   useEffect(() => {
-
     const fetchData = async () => {
       try {
         const { data } = await axios(url);
@@ -20,7 +19,6 @@ export default function P2langinfo({ dataType }) {
       }
     };
     fetchData();
-
   }, []);
 
   const dFamily = data.family;
@@ -45,7 +43,8 @@ export default function P2langinfo({ dataType }) {
           <div>
             {dFriendly.map((friendlyItem, id) => (
               <div key={id}>
-                <p className="h3">hola</p>
+                <p className="h3">{friendlyItem.name}</p>
+                <img src={friendlyItem.img} alt={friendlyItem.name} />
               </div>
             ))}
           </div>
