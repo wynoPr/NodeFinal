@@ -6,8 +6,10 @@ import P2langinfo from "./pages/P2langinfo/P2langinfo";
 import P2faminfo from "./pages/P2faminfo/P2faminfo";
 
 function App() {
+  
   return (
     <>
+      
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Front />} />

@@ -69,13 +69,13 @@ useEffect(() => {
   return (
     <>
     <section  className="container timeline">
-        <div className="timeline_scroll-window">
+  
             <div className="timeline_head">
                 <h2 className='h2 timeline_head_h'>0</h2>
                 <canvas id="miCanvas" className='canva'></canvas>
             </div>
             {languages.map((item, index) => <CardAlt arr={item} key={index}/>)}
-        </div>    
+         
     </section> 
     </>
   )

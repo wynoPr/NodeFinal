@@ -14,7 +14,10 @@
     "axios": "^1.6.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.23.0"
+    "react-router-dom": "^6.23.0",
+    "resize-observer-polyfill": "^1.5.1",
+    "simplebar": "^6.2.6",
+    "simplebar-react": "^3.2.5"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
