@@ -6,16 +6,14 @@ import P2langinfo from "./pages/P2langinfo/P2langinfo";
 import P2faminfo from "./pages/P2faminfo/P2faminfo";
 
 function App() {
-  
   return (
     <>
-      
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Front />} />
           <Route path="/languages" element={<P1 dataType="language" />} />
           <Route path="/families" element={<P1 dataType="families" />} />
-          <Route path="/languages/:id" element={<P2langinfo />} />
+          <Route path="/language/:id" element={<P2langinfo />} />
           <Route path="/families/:id" element={<P2faminfo />} />
           <Route path="/timeline" element={<P3 />} />
         </Routes>

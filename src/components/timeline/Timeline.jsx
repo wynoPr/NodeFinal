@@ -1,13 +1,12 @@
-import React, { useEffect, useState } from 'react'
-import './timeline.scss'
-import '../../../src/App.scss'
-import CardAlt from '../cardAlt/CardAlt';
-import axios from 'axios';
+import React, { useEffect, useState } from "react";
+import "./timeline.scss";
+import "../../../src/App.scss";
+import CardAlt from "../cardAlt/CardAlt";
+import axios from "axios";
 
 export default function Timeline() {
-
-    const [languages, setLanguages] = useState([]);
-    useEffect(() => {
+  const [languages, setLanguages] = useState([]);
+  useEffect(() => {
     const getLanguages = async () => {
       const { data } = await axios("http://localhost:3001/language");
       setLanguages(data);
@@ -15,28 +14,28 @@ export default function Timeline() {
     getLanguages();
   }, []);
 
-languages.sort((a, b) => a.order - b.order);
+  languages.sort((a, b) => a.order - b.order);
 
-//   console.log(languages);
+  //   console.log(languages);
 
-//draw arrow
+  //draw arrow
 
-useEffect(() => {
-    const canvas = document.getElementById('miCanvas');
-    const ctx = canvas.getContext('2d');
+  useEffect(() => {
+    const canvas = document.getElementById("miCanvas");
+    const ctx = canvas.getContext("2d");
 
     // Escalar el canvas para mejorar la resolución
     const scale = 10;
     // console.log(scale);
     canvas.width = 30 * scale;
     canvas.height = 40 * scale;
-    canvas.style.width = '30px';
-    canvas.style.height = '40px';
+    canvas.style.width = "30px";
+    canvas.style.height = "40px";
     ctx.scale(scale, scale);
 
     // Establecer el grosor y el color de la línea
     ctx.lineWidth = 2.5;
-    ctx.strokeStyle = '#2d2a26';
+    ctx.strokeStyle = "#2d2a26";
 
     // Coordenadas para la flecha
     const x1 = 15; // Punto de inicio x
@@ -68,15 +67,15 @@ useEffect(() => {
 
   return (
     <>
-    <section  className="container timeline">
-  
-            <div className="timeline_head">
-                <h2 className='h2 timeline_head_h'>0</h2>
-                <canvas id="miCanvas" className='canva'></canvas>
-            </div>
-            {languages.map((item, index) => <CardAlt arr={item} key={index}/>)}
-         
-    </section> 
+      <section className="container timeline">
+        <div className="timeline_head">
+          <h2 className="h2 timeline_head_h">0</h2>
+          <canvas id="miCanvas" className="canva"></canvas>
+        </div>
+        {languages.map((item, index) => (
+          <CardAlt arr={item} key={index} />
+        ))}
+      </section>
     </>
-  )
+  );
 }
