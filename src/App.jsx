@@ -1,35 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import P1 from "./pages/P1/P1";
+import P3 from "./pages/P3/P3";
+import Front from "./pages/front/Front";
+import P2langinfo from "./pages/P2langinfo/P2langinfo";
+import P2faminfo from "./pages/P2faminfo/P2faminfo";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Front />} />
+          <Route path="/languages" element={<P1 dataType="language" />} />
+          <Route path="/families" element={<P1 dataType="families" />} />
+          <Route path="/language/:id" element={<P2langinfo dataType="language"  />} />
+          <Route path="/families/:id" element={<P2faminfo dataType="families"  />} />
+          <Route path="/timeline" element={<P3 />} />
+        </Routes>
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
