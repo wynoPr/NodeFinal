@@ -1,8 +1,9 @@
 import React from "react";
 import "../../../src/App.scss";
-
 import "./Profile.scss";
 import { Link } from "react-router-dom";
+import SimpleBar from "simplebar-react";
+import "simplebar-react/dist/simplebar.min.css";
 
 export default function Profile({ dataType, data }) {
   if (!dataType || dataType.length === 0) {
@@ -10,18 +11,24 @@ export default function Profile({ dataType, data }) {
   }
 
   return (
-    <div className="c-profile-container">
-      <div key={languages.index} className="c-language-container">
-        {languages.map((language, index) => (
-          <Link to={"/languages/" + language.id}>
-            <div key={index} className="u-language">
-              <img className="u-language_img" src={language.img} alt={language.name} />
-
+    <SimpleBar style={{ height: "70vh", width: "60vw" }}>
+      <div className="c-language-container">
+        {data &&
+          data.map((language, index) => (
+            <Link
+              className="u-language"
+              to={`/${dataType}/${language.id}`}
+              key={index}
+            >
+              <img
+                className="u-language_img"
+                src={language.img}
+                alt={language.name}
+              />
               <h2 className="h2">{language.name}</h2>
-            </div>
-          </Link>
-        ))}
+            </Link>
+          ))}
       </div>
-    </div>
+    </SimpleBar>
   );
 }

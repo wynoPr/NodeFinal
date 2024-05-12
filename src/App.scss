@@ -55,7 +55,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #F8F8F8;
+  background-color: #e3eef8;
 }
 .h1 {
   font-family: "OpenDyslexic";
@@ -94,25 +94,27 @@
   color: #2d2a26;
 }
 
-.link{
+.link {
   color: #2d2a26;
-  transition: transform 0.3s
+  transition: transform 0.3s;
 }
 .f-w {
-  color: #F8F8F8;
+  color: #f8f8f8;
 }
-.link:hover{
+.bg-w {
+  background-color: #f8f8f8;
+}
+.link:hover {
   color: #4682b4;
   transform: scale(1.1);
 }
 .active {
   color: #87ceeb;
 }
-.icon{
+.icon {
   height: 36px;
   font-size: 36px;
 }
-
 
 .container {
   max-width: 1280px;
@@ -121,16 +123,44 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  &_row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  &_wrap {
+    flex-wrap: wrap;
+  }
+  &_padding {
+    padding: 7%;
+  }
+}
+.u-mg-20 {
+  margin: 20px;
+}
+.u-mg-10 {
+  margin: 10px;
 }
 
 .bg-black {
   background-color: #2d2a26;
 }
 
+.img-200 {
+  max-width: 100%;
+  width: 200px;
+  height: 200px;
+}
 
+.img-100 {
+  max-width: 100%;
+  width: 100px;
+  height: 100px;
+}
 
-
+.width-narrow {
+  max-width: 30vw;
+}
 
 // ::-webkit-scrollbar{
 //   width: 5px;
@@ -148,3 +178,17 @@
 // // ::-webkit-scrollbar-corner the bottom corner of the scrollbar, where both horizontal and vertical scrollbars meet.
 // // ::-webkit-resizer
 
+.simplebar-scrollbar::before {
+  background: linear-gradient(
+    150deg,
+    rgba(135, 206, 235, 1) 20%,
+    rgba(70, 130, 180, 1) 100%
+  ) !important;
+}
+.simplebar-track {
+  border-radius: 10px;
+}
+.simplebar-content-wrapper {
+  height: 70vh;
+  width: 80vw;
+}
