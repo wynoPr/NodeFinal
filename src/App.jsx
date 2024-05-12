@@ -13,8 +13,8 @@ function App() {
           <Route path="/" element={<Front />} />
           <Route path="/languages" element={<P1 dataType="language" />} />
           <Route path="/families" element={<P1 dataType="families" />} />
-          <Route path="/language/:id" element={<P2langinfo />} />
-          <Route path="/families/:id" element={<P2faminfo />} />
+          <Route path="/language/:id" element={<P2langinfo dataType="language"  />} />
+          <Route path="/families/:id" element={<P2faminfo dataType="families"  />} />
           <Route path="/timeline" element={<P3 />} />
         </Routes>
       </BrowserRouter>
