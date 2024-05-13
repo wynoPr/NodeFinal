@@ -5,18 +5,24 @@ import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
 
 export default function Front() {
+
+  const path = window.location.pathname;
+
+
   return (
     <>
-        <Header/>
+        <Header  />
+
         <section className='front-main'>
           <img className='heading' src='src\img\logo_b.png' alt='logo Developer Cheat Sheet'></img>
           <video className='front-vid container' autoPlay muted loop>
             <source src='src/img/final-react_front_video.mp4' type="video/mp4" />
-            Your browser does not support the video tag.
+            {path.includes("en") && 'Your browser does not support the video tag.'}
+            {path.includes("esp") && 'Tú navegador no soporta la etiqueta "video".'}
           </video>
           <div className='back_color-stripe'></div>
         </section>
-        <Footer/>
+        <Footer  />
     </>
   );
 }

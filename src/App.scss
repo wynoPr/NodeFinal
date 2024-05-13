@@ -50,6 +50,7 @@
 #root {
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -92,6 +93,9 @@
   font-weight: 200;
   font-size: small;
   color: #2d2a26;
+}
+.tcenter{
+  text-align: center;
 }
 
 .link {
