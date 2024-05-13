@@ -8,21 +8,38 @@ import Header from "../../components/header/Header";
 
 export default function P2langinfo({ dataType }) {
   const { id } = useParams();
+  const path = window.location.pathname;
+
   const [data, setData] = useState([]);
-  const url = "http://localhost:3001/language/" + id;
+  const baseUrl = "http://localhost:3001/";
+  const directionUrlEn = baseUrl+ 'en';
+  const directionUrlEsp = baseUrl+ 'esp';
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const { data } = await axios(url);
-        setData(data);
-        // console.log(data);
-      } catch (error) {
-        console.error(`Error fetching ${dataType}data:`, error);
-      }
-    };
-    fetchData();
-  }, []);
+    if (path.includes("en")) {
+      const fetchData = async () => {
+        try {
+          const { data } = await axios(directionUrlEn);
+          console.log(data[dataType]);
+          setData(data[dataType].find(item => item.id === id));
+        } catch (error) {
+          console.error(`Error fetching ${dataType} data:`, error);
+        }
+      };
+      fetchData();
+    } else if (path.includes("esp")) {
+      const fetchData = async () => {
+        try {
+          const { data } = await axios(directionUrlEsp);
+          // console.log(data[dataType]);
+          setData(data[dataType].find(item => item.id === id));
+        } catch (error) {
+          console.error(`Error fetching ${dataType} data:`, error);
+        }
+      };
+      fetchData();
+    }
+  }, [path, dataType]);
 
   const dFamily = data.family;
   const dFriendly = data.friendly;

@@ -5,16 +5,41 @@ import CardAlt from "../cardAlt/CardAlt";
 import axios from "axios";
 
 export default function Timeline() {
-  const [languages, setLanguages] = useState([]);
-  useEffect(() => {
-    const getLanguages = async () => {
-      const { data } = await axios("http://localhost:3001/language");
-      setLanguages(data);
-    };
-    getLanguages();
-  }, []);
 
-  languages.sort((a, b) => a.order - b.order);
+  const path = window.location.pathname;
+
+  const [data, setData] = useState([]);
+  const baseUrl = "http://localhost:3001/";
+  const directionUrlEn = baseUrl+ 'en';
+  const directionUrlEsp = baseUrl+ 'esp';
+
+  useEffect(() => {
+    if (path.includes("en")) {
+      const fetchData = async () => {
+        try {
+          const { data } = await axios(directionUrlEn);
+          console.log(data.language);
+          setData(data.language);
+        } catch (error) {
+          console.error(`Error fetching language data:`, error);
+        }
+      };
+      fetchData();
+    } else if (path.includes("esp")) {
+      const fetchData = async () => {
+        try {
+          const { data } = await axios(directionUrlEsp);
+          // console.log(data[dataType]);
+          setData(data.language);
+        } catch (error) {
+          console.error(`Error fetching language data:`, error);
+        }
+      };
+      fetchData();
+    }
+  }, [path]);
+
+  data.sort((a, b) => a.order - b.order);
 
   //   console.log(languages);
 
@@ -72,7 +97,7 @@ export default function Timeline() {
           <h2 className="h2 timeline_head_h">0</h2>
           <canvas id="miCanvas" className="canva"></canvas>
         </div>
-        {languages.map((item, index) => (
+        {data.map((item, index) => (
           <CardAlt arr={item} key={index} />
         ))}
       </section>
