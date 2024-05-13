@@ -12,39 +12,39 @@
       "content": [
         {
           "name": "HTML Basics",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9467"
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"
         },
         {
-          "name": "Sections",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9469"
+          "name": "Getting started",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started"
         },
         {
-          "name": "<div> label",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9470"
+          "name": "Text fundamentals",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals"
         },
         {
           "name": "<a> hyperlink",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9474"
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks"
         },
         {
-          "name": "Pictures",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9475"
+          "name": "Multimedia",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding"
         },
         {
           "name": "Lists",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9477"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li"
         },
         {
           "name": "Tables",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9478"
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables"
         },
         {
           "name": "Form",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9479"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form"
         },
         {
           "name": "Routes",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9480"
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Routers"
         }
       ],
       "version": "HTML5",
@@ -61,40 +61,40 @@
       },
       "content": [
         {
+          "name": "Basics",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
           "name": "Operators",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9523"
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math"
         },
         {
           "name": "Arrays",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9529"
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays"
         },
         {
           "name": "Variables",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9518"
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables"
         },
         {
           "name": "Conditionals",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9531"
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals"
         },
         {
           "name": "Loops",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9533"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration"
         },
         {
           "name": "Functions",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9535"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions"
         },
         {
           "name": "DOM",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9547"
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/DOM"
         },
         {
           "name": "Promises",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9556"
-        },
-        {
-          "name": "Petitions",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9562"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises"
         }
       ],
       "version": "v ECMAScript 2021",
@@ -112,39 +112,35 @@
       "content": [
         {
           "name": "Selectors",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9483"
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors"
         },
         {
           "name": "Specificity",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9490"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity"
         },
         {
           "name": "Flexbox",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9502"
-        },
-        {
-          "name": "Pseudoclasses",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9492"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox"
         },
         {
           "name": "Responsive",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9495"
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Responsive_web_design"
         },
         {
           "name": "Animations",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9500"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations"
         },
         {
           "name": "Grids",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9503"
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids"
         },
         {
           "name": "Bootstrap",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9505"
+          "url": "https://getbootstrap.com/docs/5.3/getting-started/introduction/"
         },
         {
-          "name": "SCSS/SAS",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9504"
+          "name": "SCSS/SASS",
+          "url": "https://sass-lang.com"
         }
       ],
       "version": "CSS3",
@@ -162,31 +158,35 @@
       "content": [
         {
           "name": "Intro",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9645"
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started"
         },
         {
           "name": "Components",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9648"
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started#exploring_our_first_react_component_—_app"
         },
         {
           "name": "Props",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9649"
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_components#make_a_unique_todo"
         },
         {
           "name": "Events & states",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9650"
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_interactivity_events_state"
         },
         {
           "name": "Hooks",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9653"
+          "url": "https://react.dev/reference/rules/rules-of-hooks"
         },
         {
           "name": "Axios",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9656"
+          "url": "https://axios-http.com/docs/intro"
         },
         {
           "name": "Redux",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9659"
+          "url": "https://redux.js.org/usage/"
+        },
+        {
+          "name": "Cheat Sheet",
+          "url": "https://reactcheatsheet.com"
         }
       ],
       "version": "v 18.2.0",
@@ -204,35 +204,35 @@
       "content": [
         {
           "name": "Installations",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9620"
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Angular_getting_started"
         },
         {
           "name": "Components",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9622"
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Angular_getting_started#get_familiar_with_your_angular_application"
         },
         {
           "name": "TS",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9623"
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/TypeScript"
         },
         {
           "name": "Events",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9625"
+          "url": "https://angular.io/guide/event-binding-concepts"
         },
         {
           "name": "Directives",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9626"
+          "url": "https://angular.io/guide/built-in-directives"
         },
         {
           "name": "Input/Output",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9627"
+          "url": "https://angular.io/guide/model-inputs"
         },
         {
           "name": "Routes",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9633"
+          "url": "https://angular.io/guide/routing-overview"
         },
         {
-          "name": "Interceptors",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9638"
+          "name": "Cheat Sheet",
+          "url": "https://angular.io/guide/cheatsheet"
         }
       ],
       "version": "v 1.7.6",
@@ -250,27 +250,27 @@
       "content": [
         {
           "name": "Env",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9579"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node"
         },
         {
           "name": "Mongo/Mongoose",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9588"
+          "url": "https://www.mongodb.com/docs/manual/"
         },
         {
-          "name": "Modelling& abstraction",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9596"
+          "name": "Modelling & abstraction",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Abstraction"
         },
         {
           "name": "Express",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9584"
+          "url": "https://expressjs.com/en/guide/routing.html"
         },
         {
           "name": "Autenticators",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9602"
+          "url": "https://www.loginradius.com/blog/engineering/guest-post/nodejs-authentication-guide/"
         },
         {
           "name": "Json",
-          "url": "https://upgradehub.instructure.com/courses/351/modules/items/9608"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON"
         }
       ],
       "version": "v 20.7.0",
